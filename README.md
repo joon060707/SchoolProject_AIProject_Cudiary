@@ -8,6 +8,7 @@
 conda install pytorch torchvision opencv
 ```
 ### frontend server
+- In the project:
 ```
 conda install nodejs
 npm install bootstrap
@@ -16,33 +17,38 @@ npm install
 npm install svelte-spa-router
 npm install svelte-file-dropzone
 ```
-Then run
+- Then run
 ```
 cd \web\frontend
 npm run dev
 ```
 ### file server
+- In the project:
 ```
 npm install formidable
 ```
-Then run
+- Then run
 ```
 cd web/fileserver
 node server.js
 ```
 ### backend server
+- In the project:
 ```
 pip install fastapi
 conda install pydantic
 pip install "uvicorn[standard]”
 ```
-Then run
+- Then run
 ```
 cd web/back
 uvicorn main:app --reload
 ```
 ### database server
-Install MySQL Workbench and Server
+- Install MySQL Workbench and Server
+- Create database aip;
+- Execute **aip_diary.sql** and **aip_plant.sql** to create tables
+- And in the project:
 ```
 pip install pymysql
 pip install cryptography
