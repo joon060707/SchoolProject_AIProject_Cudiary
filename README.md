@@ -17,6 +17,8 @@ npm install
 npm install svelte-spa-router
 npm install svelte-file-dropzone
 ```
+- Add Pretendard or other woff2 font files to "web\frontend\src\assets\css\Pretendard\woff2" from the source
+- Modify the bootstrap file to apply the font
 - Then run
 ```
 cd \web\frontend
