@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "formidable": "^3.5.4",
+    "svelte-spa-router": "^4.0.1"
+  }
+}
