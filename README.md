@@ -55,3 +55,5 @@ uvicorn main:app --reload
 pip install pymysql
 pip install cryptography
 ```
+### Note
+- To run properly, you have to run all of them (npm run dev, node server.js, uvicorn main:app --reload) with directory fix
