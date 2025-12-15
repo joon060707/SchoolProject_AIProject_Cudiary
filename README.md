@@ -1,6 +1,6 @@
 # SchoolProject_AIProject_Cudiary
 2025년 2학기 고급AI융합프로젝트 수행
-
+<img width="1448" height="868" alt="스크린샷 2025-12-06 203625" src="https://github.com/user-attachments/assets/5da5f73f-6828-46c5-b4a8-3b70c9af542f" />
 ## To run this project, do following:
 ### anaconda environment
 - Create a new anaconda environment with python 3.10+, and:
