@@ -2,12 +2,12 @@
 2025년 2학기 고급AI융합프로젝트 수행
 <img width="1448" height="868" alt="스크린샷 2025-12-06 203625" src="https://github.com/user-attachments/assets/5da5f73f-6828-46c5-b4a8-3b70c9af542f" />
 ## To run this project, do following:
-### anaconda environment
+### Anaconda environment
 - Create a new anaconda environment with python 3.10+, and:
 ```
 conda install pytorch torchvision opencv
 ```
-### frontend server
+### Frontend server
 - In the project:
 ```
 conda install nodejs
@@ -24,7 +24,7 @@ npm install svelte-file-dropzone
 cd \web\frontend
 npm run dev
 ```
-### file server
+### File server
 - In the project:
 ```
 npm install formidable
@@ -34,7 +34,7 @@ npm install formidable
 cd web/fileserver
 node server.js
 ```
-### backend server
+### Backend server
 - In the project:
 ```
 pip install fastapi
@@ -56,4 +56,4 @@ pip install pymysql
 pip install cryptography
 ```
 ### Note
-- To run properly, you have to run all of them (npm run dev, node server.js, uvicorn main:app --reload) with directory fix
+- To run properly, you have to run all of them (npm run dev, node server.js, uvicorn main:app --reload) with some absolute directories fixing
